@@ -8,9 +8,17 @@ describe('Czechitas Login Page', async () => {
 
         await browser.reloadSession();
 
-        await browser.url('/prihlaseni');
+        //await browser.pause(1000);
 
-        await browser.pause(5000);
+        //await browser.url('/kontakt');
+
+        //await browser.saveScreenshot('kontakt_page.png')
+
+        //await browser.pause(5000);
+        //console.log('hotovo, konec');
+
+        //const windowSize = await browser.getWindowSize();
+        //console.log(windowSize);
 
     });
 
